@@ -1,0 +1,31 @@
+class student
+    def__init__(self, name, 
+roll_number, cgpa) :
+    self. name=name
+    self. roll_number=
+roll_ Number
+    self. cgpa=cgpa
+def
+sort_students(student_list) :
+     sorted_students=
+sorted (students_list, 
+key=Lambda  student:
+student. cgpa, reverse=True) 
+       return sorte_students
+#create a list of student
+objects
+students=[
+       student ("Alice", "A001", 3.8),
+       student (" Bob", B003", 3.6), 
+       student ("Charlie", "C003" 3.9), 
+       student (" David", D004 3.7"), 
+]
+#sport the students by CGPA
+sorted students=
+#print the sorted list
+for student in
+sorted students:
+print (f"Name:
+{student.name}, Roll Number:
+{student.roll_ number}, CGPA:
+{student.cgpa}") 
